@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Contanier-Entrepreneur {
+  width: 100%;
+  height: 700px;
+}
+.Contanier-Entrepreneur h1 {
+  position: absolute;
+  margin-top: 100px;
+  left: 314px;
+  top: 160px;
+  font-family: TitilliumWeb-Bold-700;
+  font-size: 60px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.Entrepreneur-bg {
+  width: 100%;
+  height: 700px;
+}
+
+.img-slide2 {
+  width: 100%;
+  height: 700px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.text-enterpreneur {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-top: 60px;
+}
+.text-enterpreneur h2 {
+  font-family: OpenSans-Regular-400;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+.text-enterpreneur p {
+  font-family: Poppins-Regular-400;
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.contanier2-Entrepreneur {
+  width: 100%;
+  height: 700px;
+  margin-top: 80px;
+}
+
+.next {
+  position: absolute;
+  margin-top: 10px;
+  
+}
+.img-slide2 {
+  width: 100%;
+  height: 650px;
+}

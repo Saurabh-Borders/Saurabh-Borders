@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+/* container-canada */
+
+.container-canada {
+  width: 100%;
+  height: 700px;
+  /* background-color: #003d6f; */
+}
+.canada-img {
+  width: 100%;
+  height: 700px;
+}
+
+.canada-text1 {
+  position: absolute;
+  top: 160px;
+  left: 75px;
+}
+
+.canada-text1 h1 {
+  font-family: TitilliumWeb-Bold-700;
+  font-size: 65px;
+  line-height: 90px;
+  color: #ffffff;
+}
+.canada-text1 p {
+  font-family: Poppins-Medium-500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-top: 25px;
+}
+.btm-learn-more {
+  border: none;
+  width: 170px;
+  height: 50px;
+  background: #d02c2f;
+  color: white;
+  font-family: TitilliumWeb-SemiBold-600;
+  font-size: 17px;
+  margin-top: 40px;
+}
+
+.btm-learn-more:hover {
+  background-color: #f75154;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/* container-canada2 bg */
+
+.container-canada {
+  width: 100%;
+  height: 700px;
+  /* background-color: #003d6f; */
+}
+
+/* ---- */
+.container-canada2 h1 {
+  position: absolute;
+  font-size: 80px;
+  font-family: TitilliumWeb-Bold-700;
+  line-height: 120px;
+  color: #ffffff;
+  /* text-align: center; */
+  margin-top: 325px;
+  left: 625px;
+}
+.img-canada2 {
+  width: 100%;
+  height: 750px;
+}
+/* ------ */
+
+/* header-canada-imgrate */
+.header-canada-imgrate {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.header-canada-imgrate h1 {
+  font-family: TitilliumWeb-SemiBold-600;
+  font-size: 64px;
+  line-height: 85px;
+  color: #000000;
+}
+.header-canada-imgrate p {
+  font-family: OpenSans-Regular-400;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  line-height: 34px;
+  color: #000000;
+  text-align: left;
+}
+.container-full-modal1 {
+  width: 100%;
+  height: 750px;
+}
+
+.img-aboutCanada {
+  width: 94%;
+  height: 620px;
+  margin-left: 52px;
+}
+.aboutCanada-text h1 {
+  font-size: 55px;
+  font-family: TitilliumWeb-SemiBold-600;
+  line-height: 80px;
+  color: #ffffff;
+}
+.aboutCanada-text {
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 140px;
+}
+.modals-container {
+  margin-top: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.modals-container p {
+  font-size: 24px;
+  margin-top: -45px;
+  margin-left: 50px;
+  font-size: 21px;
+  font-family: OpenSans-Regular-400;
+  line-height: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon-arrow {
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  /* background-color: white; */
+  border: none;
+  margin-right: 30px;
+}
+.icon-arrow:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.eligible-div {
+  font-family: OpenSans-SemiBold-600;
+  width: 458px;
+  height: 50px;
+  font-size: 15px;
+  margin-top: 40px;
+  background-color: #d02c2f;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.eligible-div:hover{
+  background-color: #f75154;
+  /* width: 40px; */
+}
+/* Modal answer */
+
+.canada-overview {
+  width: 1311px;
+  left: -32px;
+  /* display: block; */
+  visibility: hidden;
+  position: absolute;
+  height: 525px;
+  border: 1px solid #d02c2f;
+  background-color: white;
+  text-align: center;
+  top: 0px;
+}
+.canada-overview:target {
+  visibility: visible;
+}
+a {
+  text-decoration: none;
+}
+.close {
+  margin-left: 613px;
+  width: 35px;
+  margin-top: 17px;
+  height: 35px;
+  /* display: none; */
+  /* position: absolute; */
+}
+.close:hover {
+  /* background-color: gray; */
+  width: 30px;
+  height: 40px;
+}
+.canada-overview h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  line-height: 80px;
+  font-family: TitilliumWeb-SemiBold-600;
+  color: #003d6f;
+}
+.canada-overview p {
+  margin: 30px;
+  font-family: OpenSans-Regular-400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #003d6f;
+}
+
+.modal-close {
+  color: red;
+  position: absolute;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+.new {
+  position: relative;
+}
+
+
+/* Footer  */
+
+/* footer part...... */
+
+.award-contaioner {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.award-contaioner h1 {
+  position: relative;
+  top: -70px;
+  text-align: center;
+  font-family: TitilliumWeb-Bold-700;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 100px;
+  color: #000000;
+}
+.awardcontainer {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.awardbox {
+  width: 220px;
+  height: 135px;
+  background: #c4c4c4;
+}
+footer {
+  position: relative;
+  bottom: 0px;
+}
+.foot {
+  padding: 70px 0px;
+  position: relative;
+  bottom: 0px;
+  height: 401px;
+  /* margin-top: 30px; */
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: #003d6f;
+  color: rgb(255, 255, 255);
+  justify-content: space-around;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.sect p {
+  font-family: OpenSans-Regular-400;
+  max-width: 320px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+.sect h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: TitilliumWeb-Bold-700;
+}
+.sect li {
+  list-style: none;
+  font-family: OpenSans-Regular-400;
+  font-size: 17px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.sect li:nth-child(1) {
+  margin-left: -3px;
+  font-family: TitilliumWeb-Bold-700;
+  font-size: 25px;
+  line-height: 45px;
+  color: #ffffff;
+}
